@@ -46,7 +46,7 @@ export default class Catogeries extends Component {
     return (
       <div className="categories-card">
         {this.state.sections.map(({ title, imageUrl, id }) => (
-          <MenuItem key={id} title={title} imgaUrl={imageUrl} i />
+          <MenuItem key={id} title={title} imageUrl={imageUrl} i />
         ))}
       </div>
     );

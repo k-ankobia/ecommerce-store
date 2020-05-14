@@ -6,7 +6,6 @@ import { HomePage } from "./pages/Homepage/Homepage.component";
 function App() {
   return (
     <div className="App">
-      <header>Hell world</header>
       <HomePage />
     </div>
   );
