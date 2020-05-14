@@ -1,11 +1,11 @@
 import React from "react";
 import "./homepage.styles.scss";
-import Directories from "../../components/DirectoriesCard/DirectoriesCard";
+import Categories from "../../components/CategoriesCard/CategoriesCard";
 
 export const HomePage = () => {
   return (
     <div>
-      <Directories />
+      <Categories />
     </div>
   );
 };

@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import "./directories.styles.scss";
+import "./categories.styles.scss";
 import { MenuItem } from "../MenuItem/MenuItem";
 
-export default class Directories extends Component {
+export default class Catogeries extends Component {
   constructor() {
     super();
     this.state = {
@@ -44,7 +44,7 @@ export default class Directories extends Component {
   }
   render() {
     return (
-      <div className="directories-card">
+      <div className="categories-card">
         {this.state.sections.map(({ title, imageUrl, id }) => (
           <MenuItem key={id} title={title} imgaUrl={imageUrl} i />
         ))}
