@@ -10,10 +10,8 @@ import CartDropdown from "../CartDropdownContainer/CartDropdownContainer";
 import { auth } from "../../firebase/firebase.utils";
 
 import "./header.styles.scss";
-import {
-  selectCartHidden,
-  selectCurrentUser,
-} from "../../redux/user/user.reselector";
+import { selectCurrentUser } from "../../redux/user/user.reselector";
+import { selectCartHidden } from "../../redux/cart/cart.reselecotors";
 
 const HeaderComponent = ({ currentUser, hidden }) => {
   return (
