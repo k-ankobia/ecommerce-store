@@ -8,7 +8,7 @@ import "./App.css";
 import { HomePage } from "./pages/Homepage/Homepage.component";
 import ShopPage from "./pages/shop/Shop.component";
 import { SignInSignOutPage } from "./pages/sign-in-and-sign-up/Sign-in-Sign-outComponent";
-import CheckoutPage from "./pages/checkout/checkout.componet";
+import CheckoutPage from "./pages/checkout/checkoutPage";
 
 import HeaderComponent from "./components/Header/headerComponent.js";
 
