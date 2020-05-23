@@ -22,4 +22,12 @@ export const selectCartItemsCount = createSelector(
       0
     )
 );
+
+export const selectCartTotal = createSelector([selectCartItems], (cartItem) =>
+  cartItem.reduce(
+    (accumulatedCost, cartItem) =>
+      accumulatedCost + cartItem.quantity * cartItem.price,
+    0
+  )
+);
 // method to calc item count from the cart items
